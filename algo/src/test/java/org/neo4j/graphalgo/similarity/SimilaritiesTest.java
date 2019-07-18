@@ -101,7 +101,7 @@ public class SimilaritiesTest {
 
         // when
         Similarities s = new Similarities();
-        double result = s.euclideanSimilarity(input, input);
+        double result = s.overlapSimilarity(input, input);
 
         // then
         assertEquals(1.0, result, 0.01);
